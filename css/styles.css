@@ -68,7 +68,7 @@ p {
     border-bottom: 0.1rem rgba(255, 255, 255, 0.3) solid;
 }
 .formulario__campo{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     color: var(--ColorFuente);
     padding:2rem 2rem;
     border: 0;
