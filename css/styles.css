@@ -81,14 +81,22 @@ p {
     padding: 2rem 0rem;
     font-weight: 200;
 }
-/* Enlace inferior en login */
+/*Texto y  Enlace inferior en login */
 .signIn{
     margin-top: 1.5rem;
 }
 .enlace{
-   
     text-decoration: none;
     color: var(--ColorInicio); 
-   
-   
 }
+
+.anim{
+    animation: fadeIn ease-in 2s;
+    
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
