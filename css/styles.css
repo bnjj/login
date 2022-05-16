@@ -72,6 +72,17 @@ p {
     
     border-top: 0.1rem rgba(255, 255, 255, 0.3) solid;
 }
+
+.formulario__campo:focus{
+   /* Visible in the full-colour space */
+   transition: all   0.2s;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5); 
+   /* Visible in Windows high-contrast themes */
+   outline-color: transparent;
+   outline-width: 2px;
+   outline-style: dotted;
+}
+
 /* Boton */
 .formulario__btn{
     margin-top: 5rem;
