@@ -9,9 +9,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     
+<main class="login">
+    <h1>Hello.</h1>
+    <p>Nice to meet you.</p>
+
+   <form class="formulario">
+       <label  for="nombre"></label>
+       <input class="formulario__campo " id="nombre" type="text" required placeholder="Name">
+       <label  for="email"></label>
+       <input class="formulario__campo" id="email" type="email" required placeholder="Email">
+       <label  for="password"></label>
+       <input class="formulario__campo formulario__campo--last " id="password" type="password" required placeholder="Password">
+
+       <input type="submit" class="formulario__btn" value="Sign Up">
+   </form>
+   <p class="signIn">Already have an account?<a class="enlace" href="#">Sign in.</a></p>
+
+</main>
+
+
 </body>
 </html>

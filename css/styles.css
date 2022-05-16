@@ -1,0 +1,94 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200&display=swap');
+
+/* Definición de Variables */
+
+:root{
+    --ColorInicio:rgb(255,128,128);
+    --ColorFinal:rgb(71,47,93);
+    --ColorFuente:rgb(255,255,255);
+    --Fuente:'Roboto', sans-serif;
+}
+
+
+/*Colores +  1rem = 10px  */
+html { min-height: 100%;
+    font-size:62.5%;}
+
+body{
+    font-size: 1.6rem; 
+    color: var(--ColorFuente);
+    background: var(--ColorInicio);
+    background: linear-gradient(180deg, var(--ColorInicio) 0%, var(--ColorFinal) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: var(--Fuente);
+  
+}
+/* Tamaño y formato texto */
+h1,p{
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{font-size: 5.5rem;}
+p {
+    font-size: 1.9rem;
+    font-weight:100;
+}
+
+/* Estilo de login */
+.login{ 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15rem;
+}
+/* Formulario */
+.formulario{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* Campos de Formulario */
+.formulario__campo:first-of-type{
+    border-bottom: 0.1rem rgba(255, 255, 255, 0.3) solid;
+}
+.formulario__campo{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--ColorFuente);
+    padding:2rem 2rem;
+    border: 0;
+    font-weight: 200;
+    
+}
+.formulario__campo--last{
+    
+    border-top: 0.1rem rgba(255, 255, 255, 0.3) solid;
+}
+/* Boton */
+.formulario__btn{
+    margin-top: 5rem;
+    border: 0;
+    background-color: var(--ColorInicio);
+    color: var(--ColorFuente);
+    padding: 2rem 0rem;
+    font-weight: 200;
+}
+/* Enlace inferior en login */
+.signIn{
+    margin-top: 1.5rem;
+}
+.enlace{
+   
+    text-decoration: none;
+    color: var(--ColorInicio); 
+   
+   
+}
