@@ -9,7 +9,14 @@
     --ColorFuente:rgb(255,255,255);
     --Fuente:'Roboto', sans-serif;
 }
-
+/* Quita border-radius agregado por el navegador */
+input {
+    border-radius: 0;
+  }
+  
+  input[type="search"] {
+    -webkit-appearance: none;
+  }
 
 /*Colores +  1rem = 10px  */
 html { min-height: 100%;
@@ -92,6 +99,8 @@ p {
     padding: 2rem 0rem;
     font-weight: 200;
 }
+
+
 /*Texto y  Enlace inferior en login */
 .signIn{
     margin-top: 1.5rem;
